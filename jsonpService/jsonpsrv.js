@@ -1,0 +1,1 @@
+!function(e){e.module("moviecat.jsonp",[]).service("JSONPSrv",["$window",function(e){var n=e.document;this.jsonp=function(a,r,c){a+="?";for(var i in r)a+=i+"="+r[i]+"&";var o="yueer"+(new Date-0);a+="callback="+o,e[o]=function(a){c(a),n.head.removeChild(t),delete e[o]};var t=n.createElement("script");t.src=a,n.head.appendChild(t)}}])}(angular);

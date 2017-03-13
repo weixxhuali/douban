@@ -1,0 +1,1 @@
+!function(e){e.module("moviecat",["moviecat.homePage","moviecat.menuActive","moviecat.details","moviecat.jsonp","moviecat.movieList"])}(angular);
